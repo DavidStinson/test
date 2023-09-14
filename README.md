@@ -10,7 +10,7 @@ This module introduces scope in JavaScript.
 In this module, students will be able to:
 
   - Define the concept of scope in JavaScript.
-  - Identify the different types of scope in JavaScript (global scope, local scope, function scope, block scope).
+  - Identify the different types of scope in JavaScript (global scope, function scope, block scope).
   - Explain how scope affects variable access.
   - Use the var, let, and const keywords to control scope.
   - Write code that takes advantage of scope to avoid variable conflicts.
