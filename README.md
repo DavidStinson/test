@@ -24,3 +24,23 @@ In this module, students will be able to:
 | [Types of Scope in JavaScript](./types-of-scope-js/README.md) | 20 min | [Link]() |
 | [The Scope Chain](./scope-chain/README.md) | 28 min | [Link]() |
 |  **Total Module**                        | 60 min | ---                                                          | 
+
+## Additional content 
+🚀 [Level Up](./level-up/README.md)
+
+📖 [Reference Materials](./references/README.md)
+
+## Internal resources
+
+✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
+
+🎥 [Video Guide](./internal-resources/video-guide/README.md)
+
+🏗️ [Release Notes](./internal-resources/release-notes.md)
+
+<hr>
+
+**Find a 👾 bug 👾? let us know!**
+[Submit Feedback](https://generalassembly.atlassian.net/servicedesk/customer/portal/16)
+
+<hr>
