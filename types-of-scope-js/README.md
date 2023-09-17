@@ -32,7 +32,7 @@ function initialize() {
 
 ## Function (local) scope
 
-When a function is executed, a new scope is created for that function. All variables declared inside the function, regardless of whether they are declared with var, let, or const, are within that function's scope.
+When a function is executed, a new scope is created for that function. All variables declared inside the function, regardless of whether they are declared with `var`, `let`, or `const`, are within that function's scope.
 
 Variables in a function's scope only exist while the function is executing, unless the function creates a closure. Closures are a topic for another day.
 

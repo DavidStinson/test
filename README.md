@@ -1,13 +1,13 @@
 # JavaScript Scope
 
-![Hero image](./assets/hero.png)
+![Hero image](https://i.imgur.com/fe5VQ4M.jpg)
 
 ## Module overview
 
 This module introduces scope in JavaScript.
 
 ### Learning objectives
-In this module, students will be able to:
+After completing this module, students will be able to:
 
   - Define the concept of scope in JavaScript.
   - Identify the different types of scope in JavaScript (global scope, function scope, block scope).
