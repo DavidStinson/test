@@ -6,6 +6,8 @@ Links from the module lesson content:
 
 - [Scope definition](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
 
+- [Principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege)
+
 - [Hoisting definition](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
 
 ## Online Resources
