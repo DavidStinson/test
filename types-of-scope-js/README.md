@@ -55,7 +55,46 @@ A major benefit of having different scopes is that you can use the same variable
 
 ## Block scope
 
-In JavaScript, **block scope** is the scope of a variable declared inside a block of code, such as an `if` block, a `for loop`, or a function body. Variables declared in block scope can only be accessed from within the block of code in which they are declared.
+In JavaScript, **block scope** is the scope of a variable declared inside a block of code, such as an `if` block, a `for loop`, or a function body -- in short, anything encased within curly braces `{}`. Variables declared in block scope can only be accessed from within the block of code in which they are declared. 
+
+Both `let` and `const` define variables that can only be accessed within the code block they are defined in.
+
+```js
+let isLoggedIn = true
+
+if (isLoggedIn) {
+  let username = "Frisco"
+
+  console.log(username) // logs "Frisco"
+}
+
+console.log(username) // ReferenceError: username is not defined
+```
+
+In the above example, the `username` variable isn't accessible outside of the `if` statement. 
+
+
+```js
+function dinnerMenu() {
+
+  let hungry = true
+
+  if (hungry) {
+    // Block scope
+    let mainDish = "Meatloaf"
+
+    // Function scope gives us access to the hungry variable
+    console.log("Hungry?" + "--> " + hungry) // logs 'Hungry? --> true'
+
+    console.log("Dinner tonight is " + mainDish) // logs 'Dinner tonight is Meatloaf'
+  }
+
+  // Outside of the block, the variable is not accessible.
+  console.log(mainDish + " is tasty") // ReferenceError: mainDish is not defined
+}
+
+dinnerMenu()
+```
 
 
 ### Defining variables with `var` (and why we don't use it)
@@ -68,11 +107,10 @@ and it allows us to redeclare variables and declare variables without intializin
 This lack of restriction can cause a lot of confusion and unintended behavior in our code, and is one of the reasons we don't use `var` (and you shouldn't either). 
 
 
-### `var`, `let`, and `const` in scope
-
-Both `let` and `const` define variables that can only be accessed within the code block they are defined in.
 
 Variables defined with `var`, however, have function scope. This means they're accesible from anywhere within the function in which they were declared. 
+
+
 
 The following code from MDN's [docs about let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) and [docs about var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var) demonstrates the differences between `let` and `var`:
 
