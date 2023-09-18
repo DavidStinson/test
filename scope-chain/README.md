@@ -1,4 +1,4 @@
-# The Scope Chain
+# JavaScript Scope - The Scope Chain
 
 ## What is the scope chain?
 

@@ -1,4 +1,4 @@
-# JS Scope - Instructor Guide
+# JavaScript Scope - Instructor Guide
 
 ## General tips
 

@@ -1,4 +1,4 @@
-# Setup
+# JavaScript Scope - Setup
 
 Open your Terminal application and navigate to your **`~/code/sei/lectures`** directory:
 
