@@ -1,6 +1,6 @@
 # Hoisting
 
-Remember how we can call function declarations before they have been defined thanks to **hoisting**?
+Remember how we can call function declarations before they have been defined thanks to **[hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)**?
 
 Similarly, a variable’s **declaration** (but not its assignment) is hoisted to the top of the function when it’s declared using `var`.
 
