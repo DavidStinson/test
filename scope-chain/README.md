@@ -30,3 +30,24 @@ This means that you can access variables and functions that are declared in the 
 
 If the JS runtime engine gets to the global scope (which is the top of the food chain in the scope hierarchy) and still can’t find what it’s looking for, that’s when your program ceases due to a **ReferenceError**.
 
+Try it out!
+
+```js
+let a = 4
+
+function foo(x) {
+  let b = a * 4
+
+  function bar(y) {
+    let c = y * b
+    return c
+  }
+
+  return bar(b)
+}
+
+console.log(foo(a))
+```
+
+> ❓ Does the above function `foo` have access to the variable `c`?
+
