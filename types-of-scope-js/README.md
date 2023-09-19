@@ -111,7 +111,7 @@ Now imagine that you go to the children's section. The children's section is a *
 
 For example, if you want to get a book from the non-fiction section, you have to leave the children's section and go to the non-fiction section.
 
-## Code examples of scope
+## Code example of scope
 
 Let’s review. The following diagram demonstrates both global and function scope:
 
