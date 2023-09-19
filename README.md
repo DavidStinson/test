@@ -20,8 +20,10 @@ This module introduces scope in JavaScript.
 📖 [Reference Materials](./references/README.md)
 
 ### 🚀 Level Up 
-  - [Hoisting](../level-up/hoisting.md)
-  - [`var` Keyword](../level-up/var.md)
+  - [Hoisting](/level-up/hoisting.md)
+  - [`var` Keyword](/level-up/var.md)
+  - [More About Global Scope](/level-up/more-about-global-scope.md)
+  - [Temporal Dead Zone](/level-up/temporal-dead-zone.md)
 
 ## Internal resources
 

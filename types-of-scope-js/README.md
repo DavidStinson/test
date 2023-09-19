@@ -117,3 +117,4 @@ Let’s review. The following diagram demonstrates both global and function scop
 
 ![Scope example](./assets/scope.png)
 This diagram identifies three different scopes and the identifiers (variables and functions) that live within each scope.
+

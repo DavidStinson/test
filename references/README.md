@@ -14,6 +14,8 @@ Links from the module lesson content:
 
 - [`var` keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
 
+- [Temporal dead zone](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#temporal_dead_zone_tdz)
+
 ## Online Resources
 
 JavaScript scope is fundamental to the language, high-quality resources can help deepen your understanding.

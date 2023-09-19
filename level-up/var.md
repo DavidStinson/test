@@ -1,6 +1,6 @@
 # `var` Keyword
 
-In additiom to defining variables with `let` and `const`, there is also a *third* way to define variables in JavaScript: by using the `var` keyword.
+In addition to defining variables with `let` and `const`, there is also a *third* way to define variables in JavaScript: by using the `var` keyword.
 
 When JavaScript was created, `var` was the only way to define variables. It's the least restrictive of the three keywords, 
 and it allows us to redeclare variables and declare variables without intializing them. 
