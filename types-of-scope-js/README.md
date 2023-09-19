@@ -77,14 +77,14 @@ In the above example, the `username` variable isn't accessible outside of the `i
 ```js
 function dinnerMenu() {
 
-  let hungry = true
+  let isHungry = true
 
-  if (hungry) {
+  if (isHungry) {
     // Block scope
     let mainDish = "Meatloaf"
 
     // Function scope gives us access to the hungry variable
-    console.log("Hungry?" + "--> " + hungry) // logs 'Hungry? --> true'
+    console.log("Hungry?" + "--> " + isHungry) // logs 'Hungry? --> true'
 
     console.log("Dinner tonight is " + mainDish) // logs 'Dinner tonight is Meatloaf'
   }
@@ -97,56 +97,9 @@ dinnerMenu()
 ```
 
 
-### Defining variables with `var` (and why we don't use it)
+### Defining variables with `var`
 
-In additiom to defining variables with `let` and `const`, there is also a *third* way to define variables in JavaScript: by using the `var` keyword.
-
-When JavaScript was created, `var` was the only way to define variables. It's the least restrictive of the three keywords, 
-and it allows us to redeclare variables and declare variables without intializing them. 
-
-This lack of restriction can cause a lot of confusion and unintended behavior in our code, and is one of the reasons we don't use `var` (and you shouldn't either). 
-
-
-
-Variables defined with `var`, however, have function scope. This means they're accesible from anywhere within the function in which they were declared. 
-
-
-
-The following code from MDN's [docs about let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) and [docs about var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var) demonstrates the differences between `let` and `var`:
-
-```js
-function varTest() {
-  var x = 1
-  if (true) {
-    var x = 2  // same variable!
-    console.log(x)  // 2
-  }
-  console.log(x)  // 2
-}
-
-function letTest() {
-  let x = 1
-  if (true) {
-    let x = 2  // different variable
-    console.log(x)  // 2
-  }
-  console.log(x)  // 1
-}
-```
-
-and another example of their differences:
-
-```js
-if (true) {
-	var x = "yes"
-}
-console.log(x) // "yes"
-
-if (true) {
-	let y = "yes"
-}
-console.log(y) // ReferenceError: y is not defined
-```
+Variables can also be declared with the `var` keyword. `var` is generally less safe and can complicate scope. Its usage is frowned upon so we don't use it in our content and neither should you. If you want to learn more about why you shouldn't use it, check out the `var` Level Up.
 
 ## Real world example
 

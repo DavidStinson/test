@@ -10,6 +10,10 @@ Links from the module lesson content:
 
 - [Hoisting definition](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
 
+- [`let` keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+
+- [`var` keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
+
 ## Online Resources
 
 JavaScript scope is fundamental to the language, high-quality resources can help deepen your understanding.

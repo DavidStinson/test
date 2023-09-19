@@ -6,29 +6,22 @@
 
 This module introduces scope in JavaScript.
 
-### Learning objectives
-After completing this module, students will be able to:
-
-  - Define the concept of scope in JavaScript.
-  - Identify the different types of scope in JavaScript (global scope, function scope, block scope).
-  - Explain how scope affects variable access.
-  - Use the var, let, and const keywords to control scope.
-  - Write code that takes advantage of scope to avoid variable conflicts.
-  - Debug code that is causing errors due to scope issues.
-
 ## Content outline
-| Lesson | Delivery Time | Video |
-| ------ |:-------------:|:-----:|
-| [Setup](./setup/README.md)               | 8 min  | [Link]() |
-| [Concepts](./concepts/README.md)         | 4 min  | [Link]() |
-| [Types of Scope in JavaScript](./types-of-scope-js/README.md) | 20 min | [Link]() |
-| [The Scope Chain](./scope-chain/README.md) | 28 min | [Link]() |
-|  **Total Module**                        | 60 min | ---                                                          | 
+| Lesson | Video Time | Video | Learning Objective |
+| ------ |:----------:|:-----:| ------------------ |
+| [Setup](./setup/README.md)               | 8 min  | [Link]() | --- |  
+| [Concepts](./concepts/README.md)         | 4 min  | [Link]() | Define the concept of scope in JavaScript. |
+| [Types of Scope in JavaScript](./types-of-scope-js/README.md) | 20 min | [Link]() | Identify the different types of scope in JavaScript (global scope, function scope, block scope). |
+| [The Scope Chain](./scope-chain/README.md) | 28 min | [Link]() | Explain how scope affects variable access. |
+|  **Total Module**                        | 60 min | ---                                                          | --- |
 
-## Additional content 
-🚀 [Level Up](./level-up/README.md)
+## Additional Content
 
 📖 [Reference Materials](./references/README.md)
+
+### 🚀 Level Up 
+  - [Hoisting](../level-up/hoisting.md)
+  - [`var` Keyword](../level-up/var.md)
 
 ## Internal resources
 
