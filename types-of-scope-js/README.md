@@ -1,4 +1,4 @@
-# JavaScript Scope - Types of scope in JavaScript
+# JavaScript Scope - Types of Scope in JavaScript
 
 JavaScript has three types of scope:
   - **Global scope**
