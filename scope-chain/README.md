@@ -26,9 +26,9 @@ In the example above, the `name` variable is defined in global scope, making it 
 
 A key takeaway is that functions have access to the set of variables and functions defined within their own scope AND in the **outer** scopes. When a line of code accesses a variable (or function), JS will traverse up the scope chain until it finds what it’s looking for.
 
-This means that you can access variables and functions that are declared in the global scope from within any function. However, you cannot access variables and functions that are declared in a function from outside of that function.
+This means that we can access variables and functions that are declared in the global scope from within any function. However, we cannot access variables and functions that are declared in a function from outside of that function.
 
-If the JS runtime engine gets to the global scope (which is the top of the food chain in the scope hierarchy) and still can’t find what it’s looking for, that’s when your program ceases due to a **ReferenceError**.
+If the JS runtime engine gets to the global scope (which is the top of the food chain in the scope hierarchy) and still can’t find what it’s looking for, that’s when our program ceases due to a **ReferenceError**.
 
 Try it out!
 

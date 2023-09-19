@@ -1,7 +1,7 @@
 # JavaScript Scope - Types of scope in JavaScript
 
 JavaScript has three types of scope:
-  -  **Global scope**
+  - **Global scope**
   - **Function scope**, also known as **local scope**
   - **Block scope** courtesy of ES2015’s `let` & `const`
 
@@ -30,6 +30,8 @@ function initialize() {
 
 ```
 
+> ❓ What variable/functiton identifiers above exist in global scope?
+
 ## Function (local) scope
 
 When a function is executed, a new scope is created for that function. All variables declared inside the function, regardless of whether they are declared with `var`, `let`, or `const`, are within that function's scope.
@@ -51,7 +53,9 @@ function initialize() {
 
 ```
 
-A major benefit of having different scopes is that you can use the same variable names in different functions without causing conflicts. If there were only one scope, this would not be possible.
+> ❓ What variable/function identifiers above exist in the `initialize` function’s scope?
+
+A major benefit of having different scopes is that we can use the same variable names in different functions without causing conflicts. If there were only one scope, this would not be possible.
 
 ## Block scope
 
@@ -63,9 +67,9 @@ Both `let` and `const` define variables that can only be accessed within the cod
 let isLoggedIn = true
 
 if (isLoggedIn) {
-  let username = "Frisco"
+  let username = 'Frisco'
 
-  console.log(username) // logs "Frisco"
+  console.log(username) // logs 'Frisco'
 }
 
 console.log(username) // ReferenceError: username is not defined
@@ -81,16 +85,16 @@ function dinnerMenu() {
 
   if (isHungry) {
     // Block scope
-    let mainDish = "Meatloaf"
+    let mainDish = 'Meatloaf'
 
     // Function scope gives us access to the hungry variable
-    console.log("Hungry?" + "--> " + isHungry) // logs 'Hungry? --> true'
+    console.log('Hungry?' + '--> ' + isHungry) // logs 'Hungry? --> true'
 
-    console.log("Dinner tonight is " + mainDish) // logs 'Dinner tonight is Meatloaf'
+    console.log('Dinner tonight is ' + mainDish) // logs 'Dinner tonight is Meatloaf'
   }
 
   // Outside of the block, the variable is not accessible.
-  console.log(mainDish + " is tasty") // ReferenceError: mainDish is not defined
+  console.log(mainDish + ' is tasty') // ReferenceError: mainDish is not defined
 }
 
 dinnerMenu()

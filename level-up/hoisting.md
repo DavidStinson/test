@@ -4,7 +4,7 @@ Remember how we can call function declarations before they have been defined tha
 
 Similarly, a variable’s **declaration** (but not its assignment) is hoisted to the top of the function when it’s declared using `var` (but not when it's declared using `let` or `const`).
 
-Hoisting in JavaScript moves all variable declarations to the top of their scope before code execution. This means that no matter where you declare a variable in your code, it will be accessible as if it were declared at the top of the scope.
+Hoisting in JavaScript moves all variable declarations to the top of their scope before code execution. This means that no matter where we declare a variable in our code, it will be accessible as if it were declared at the top of the scope.
 
 For example, when we write code like this:
 
