@@ -12,7 +12,7 @@ This module covers scope in JavaScript.
 | ------ |:----------:|:-----:| ------------------ |
 | [Setup](./setup/README.md)                                    | --- | [Link]() | --- |  
 | [Concepts](./concepts/README.md)                              | --- | [Link]() | Define the concept of scope in JavaScript. |
-| [Types of Scope in JavaScript](./types-of-scope-js/README.md) | --- | [Link]() | Identify the different types of scope in JavaScript (global scope, function scope, block scope). |
+| [Types of Scope](./types-of-scope/README.md) | --- | [Link]() | Identify the different types of scope in JavaScript (global scope, function scope, block scope). |
 | [The Scope Chain](./scope-chain/README.md)                    | --- | [Link]() | Explain how scope affects variable access. |
 |  **Total Module**                                             | --- | ---      | --- |
 
@@ -22,7 +22,6 @@ This module covers scope in JavaScript.
 
 ### 🚀 Level Up
 
-- [Hoisting](/level-up/hoisting.md)
 - [`var` Keyword](/level-up/var.md)
 - [More About Global Scope](/level-up/more-about-global-scope.md)
 - [Temporal Dead Zone](/level-up/temporal-dead-zone.md)
