@@ -10,10 +10,10 @@
 
 - **Connect to Real-World Scenarios**: Provide practical examples of when and why arrays are used in real programming projects. This not only enhances understanding but also showcases the relevance of the topic in actual software development.
 
-<hr>
+---
 
 🏗️ **Under Construction**
 
 We are constantly working to improve our resources for instructors and students.
 
-  **Want to contribute to this Instructor Guide?** [Let us know!](https://generalassembly.atlassian.net/servicedesk/customer/portal/16)
+**Have something to contribute to this Instructor Guide?** [Let us know](https://ga.co/curriculum-feedback).
