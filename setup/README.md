@@ -1,5 +1,7 @@
 # JavaScript Scope - Setup
 
+![Hero image](./assets/hero.png)
+
 Open your Terminal application and navigate to your **`~/code/sei/lectures`** directory:
 
 ```bash

@@ -1,4 +1,6 @@
-# Hoisting
+# JavaScript Scope - Level Up - Hoisting
+
+![Hero image](./assets/hero.png)
 
 Remember how we can call function declarations before they have been defined thanks to **[hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)**?
 

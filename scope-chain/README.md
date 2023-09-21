@@ -1,7 +1,8 @@
 # JavaScript Scope - The Scope Chain
 
-## What is the scope chain?
+![Hero image](./assets/hero.png)
 
+## What is the scope chain?
 
 The scope chain is a mechanism that allows JavaScript to find variables and functions when they are referenced in code. It's a chain of scopes, where each scope is a collection of variables and functions that are accessible within that scope.
 

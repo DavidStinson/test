@@ -1,5 +1,7 @@
 # JavaScript Scope - Types of Scope in JavaScript
 
+![Hero image](./assets/hero.png)
+
 JavaScript has three types of scope:
   - **Global scope**
   - **Function scope**, also known as **local scope**
