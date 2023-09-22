@@ -2,11 +2,13 @@
 
 ![Hero image](./assets/hero.png)
 
+**Learning Objective**: Students will be able to explain how scope affects variable access.
+
 ## What is the scope chain?
 
 The scope chain is a mechanism that allows JavaScript to find variables and functions when they are referenced in code. It's a chain of scopes, where each scope is a collection of variables and functions accessible within that scope.
 
-When a variable or function is referenced in code, the JavaScript engine searches the scope chain for that variable or function, starting from the innermost scope and working its way out. If the variable or function is not found in any of the scopes, the engine throws a **ReferenceError**.
+When a variable or function is referenced in code, the JavaScript engine searches the scope chain for that variable or function, starting from the innermost scope and working its way out. If the variable or function is not found in any of the scopes, the app will crash due to a `ReferenceError`.
 
 ```js
 // Global scope
@@ -29,7 +31,7 @@ A key takeaway is that functions have access to the set of variables and functio
 
 This means we can access variables and functions declared in the global scope from within any function. However, we cannot access variables and functions declared inside a function from outside of that function.
 
-If the JS runtime engine gets to the global scope (the top of the food chain in the scope hierarchy) and still can't find what it's looking for, our program ceases due to a **ReferenceError**.
+If the JS runtime engine gets to the global scope (the top of the food chain in the scope hierarchy) and still can't find what it's looking for, our program ceases due to a `ReferenceError`.
 
 Try it out!
 
@@ -57,4 +59,3 @@ Here's a diagram to help visualize how the different scopes in the code above ar
 This diagram identifies three different scopes and the identifiers (variables and functions) that live within each scope.
 
 > ❓ Does the above function `foo` have access to the variable `c`?
-

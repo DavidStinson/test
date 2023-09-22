@@ -10,11 +10,12 @@ This module covers scope in JavaScript.
 
 | Lesson | Video Time | Video | Learning Objective |
 | ------ |:----------:|:-----:| ------------------ |
-| [Setup](./setup/README.md)                                    | --- | [Link]() | --- |  
-| [Concepts](./concepts/README.md)                              | --- | [Link]() | Define the concept of scope in JavaScript. |
-| [Types of Scope](./types-of-scope/README.md) | --- | [Link]() | Identify the different types of scope in JavaScript (global scope, function scope, block scope). |
-| [The Scope Chain](./scope-chain/README.md)                    | --- | [Link]() | Explain how scope affects variable access. |
-|  **Total Module**                                             | --- | ---      | --- |
+| [Setup](./setup/README.md)                                       | --- | [Link]() | ---                                                                         |  
+| [Concepts](./concepts/README.md)                                 | --- | [Link]() | Define the concept of scope and introduce the types of scope in JavaScript. |
+| [Function and Block Scope](./function-and-block-scope/README.md) | --- | [Link]() | Understand how function and block scope work in JavaScript.                 |
+| [Global Scope](./global-scope/README.md)                         | --- | [Link]() | Understand global scope and some of its pitfalls in JavaScript.             |
+| [The Scope Chain](./scope-chain/README.md)                       | --- | [Link]() | Explain how scope affects variable access.                                  |
+|  **Total Module**                                                | --- | ---      | ---                                                                         |
 
 ## Additional Content
 
