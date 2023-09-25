@@ -1,9 +1,11 @@
 # JavaScript Scope - Setup
 
-Open your Terminal application and navigate to your **`~/code/sei/lectures`** directory:
+![Hero image](./assets/hero.png)
+
+Open your Terminal application and navigate to your **`~/code/ga/lectures`** directory:
 
 ```bash
-cd ~/code/sei/lectures
+cd ~/code/ga/lectures
 ```
 
 Make a new directory called **`js-scope`**, then enter this directory:
