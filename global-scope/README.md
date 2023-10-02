@@ -2,11 +2,11 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning Objective**: Students will understand global scope and some of its pitfalls in JavaScript.
+**Learning Objective**: By the end of this section, students will be able to define what global scope is in JavaScript, explain its characteristics, and identify best practices for using global variables to minimize potential issues.
 
 ## Global scope
 
-JavaScript has a single **global scope**, which can declare variables and functions accessed from anywhere in the code. Using global variables with caution is essential, as they can be modified by any part of the code, which can lead to unexpected behavior.
+Global scope in JavaScript refers to the outermost scope where variables and functions are accessible throughout the entire codebase. In other words, variables and functions declared in the **global scope** can be accessed and modified by any part of the code. This makes global variables powerful but also risky, as their values can be changed from any scope, potentially leading to unintended side effects or bugs.
 
 Any variable declared outside a function or block will live in the global scope.
 
@@ -37,9 +37,9 @@ console.log(mainDish);
 // Output: 'meatloaf'
 ```
 
-## Real-world example
+## Global scope as a metaphor
 
-Scope is a tough concept, especially when you're new to coding. To help you further understand, here's a real-world example to illustrate the idea of scope:
+Scope is a tough concept, especially when you're new to coding. To help you further understand, here's an example to illustrate the idea of scope:
 
 Imagine that you are in a library. The entire library is the **global scope**. You can access anything in the library from anywhere in the library.
 
