@@ -10,7 +10,7 @@ Function scope and block scope behave similarly, so it makes sense to bundle the
 
 - **Function scope**: When you declare a variable inside a function, it can only be accessed within that function. This includes the function's parameters as well.
 
-- **Block scope**: Similarly, if you declare a variable inside a code block such as within an if statement or a for loop (including any variables defined inside the `( )`), you can only use that variable within that specific block.
+- **Block scope**: Similarly, if you declare a variable inside a code block such as within an `if` statement or a `for` loop (including any variables defined inside the `( )`), you can only use that variable within that specific block.
 
 In simpler terms, if you put a variable inside curly braces `{ }`, whether it's part of a function or a code block, that variable can only be used within those curly braces. This helps keep your code organized and avoids conflicts between variables.
 

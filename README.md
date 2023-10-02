@@ -11,10 +11,10 @@ In JavaScript, scope refers to the context in which variables are declared, acce
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| ------------------ |
 | [Setup](./setup/README.md)                                       | -- | -- | --                                                        |
-| [Concepts](./concepts/README.md)                                 | -- | -- | What is scope?, Types of scope in JavaScript.             |
+| [Concepts](./concepts/README.md)                                 | -- | -- | What is scope?, Types of scope in JavaScript              |
 | [Function and Block Scope](./function-and-block-scope/README.md) | -- | -- | How function and block scope are similar                  |
 | [Global Scope](./global-scope/README.md)                         | -- | -- | Global scope and its pitfalls                             |
-| [The Scope Chain](./scope-chain/README.md)                       | -- | -- | How scope affects variable access.                        |
+| [The Scope Chain](./scope-chain/README.md)                       | -- | -- | How scope affects variable access                         |
 |  **Total Module**                                                | -- | -- | --                                                        |
 
 ## Additional Content

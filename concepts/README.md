@@ -11,7 +11,7 @@ In general, the concept of [scope](https://developer.mozilla.org/en-US/docs/Glos
 JavaScript scope is *lexical*, meaning that the code's physical structure determines scope. 
 
 
-***tktk*** - Asset that represents the idea of physical scope in code (code block, curly braces, etc.)
+***ASSET tktk*** - Asset that represents the idea of physical scope in code (code block, curly braces, etc.)
 
 When a line of code doesn't have access to a variable or function, we can describe that variable or function as being "out of scope".
 
