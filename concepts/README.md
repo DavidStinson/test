@@ -2,13 +2,16 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning Objective**: Students will be able to define the concept of scope and introduce the types of scope in JavaScript.
+**Learning Objective**: By the end of this lesson, students will be able to define the concept of lexical scope in JavaScript and articulate why scope is crucial for variable management, code readability, and memory efficiency. 
 
 ## What is scope?
 
 In general, the concept of [scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope) in programming refers to the variables and functions we can access to from a given line of code.
 
 JavaScript scope is *lexical*, meaning that the code's physical structure determines scope. 
+
+
+***tktk*** - Asset that represents the idea of physical scope in code (code block, curly braces, etc.)
 
 When a line of code doesn't have access to a variable or function, we can describe that variable or function as being "out of scope".
 

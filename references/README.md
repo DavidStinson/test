@@ -8,6 +8,8 @@ Links from the module lesson content:
 
 - [Principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege)
 
+- [Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+
 - [Hoisting definition](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
 
 - [`let` keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)

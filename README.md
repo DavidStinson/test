@@ -4,18 +4,18 @@
 
 ## Module overview
 
-This module covers scope in JavaScript.
+In JavaScript, scope refers to the context in which variables are declared, accessed, and manipulated. Understanding scope is crucial for managing data and controlling variable visibility.
 
 ## Content outline
 
 | Lesson | Video Time | Video | Learning Objective |
 | ------ |:----------:|:-----:| ------------------ |
-| [Setup](./setup/README.md)                                       | --- | [Link]() | ---                                                                         |  
-| [Concepts](./concepts/README.md)                                 | --- | [Link]() | Define the concept of scope and introduce the types of scope in JavaScript. |
-| [Function and Block Scope](./function-and-block-scope/README.md) | --- | [Link]() | Understand how function and block scope work in JavaScript.                 |
-| [Global Scope](./global-scope/README.md)                         | --- | [Link]() | Understand global scope and some of its pitfalls in JavaScript.             |
-| [The Scope Chain](./scope-chain/README.md)                       | --- | [Link]() | Explain how scope affects variable access.                                  |
-|  **Total Module**                                                | --- | ---      | ---                                                                         |
+| [Setup](./setup/README.md)                                       | -- | -- | --                                                                         |  
+| [Concepts](./concepts/README.md)                                 | -- | -- | Define the concept of scope and introduce the types of scope in JavaScript. |
+| [Function and Block Scope](./function-and-block-scope/README.md) | -- | -- | Understand how function and block scope work in JavaScript.                 |
+| [Global Scope](./global-scope/README.md)                         | -- | -- | Understand global scope and some of its pitfalls in JavaScript.             |
+| [The Scope Chain](./scope-chain/README.md)                       | -- | -- | Explain how scope affects variable access.                                  |
+|  **Total Module**                                                | -- | -- | --                                                                         |
 
 ## Additional Content
 
