@@ -62,6 +62,4 @@ Here's a diagram to help visualize how the different scopes in the code above ar
 
 This diagram identifies three different scopes and the identifiers (variables and functions) that live within each scope.
 
-### ❓Review question
-
-Does the above function `foo` have access to the variable `c`?
+> ❓ Does the above function `foo` have access to the variable `c`?

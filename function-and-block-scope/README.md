@@ -35,9 +35,7 @@ console.log(numB);
 
 Above, you can see that `numB` isn't available outside the `addNums` function.
 
-### ❓ Review question
-
-Is `numA` available outside of the `addNums` function?
+> ❓ Is `numA` available outside of the `addNums` function?
 
 
 Let's look at another example:
