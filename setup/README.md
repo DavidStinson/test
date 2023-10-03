@@ -26,7 +26,7 @@ Once the files are created, open the contents of the directory in VS Code:
 code .
 ```
 
-Open the **`index.html`** file and add HTML boilerplate. Then make use of the **`app.js`** file by adding this line inside the `<head>` tag:
+Open the `index.html` file and add HTML boilerplate by typing `!` and then hitting the `Tab` key. Then make use of the **`app.js`** file by adding this line inside the `<head>` tag:
 
 ```html
 <script defer src="./app.js"></script>
