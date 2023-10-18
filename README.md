@@ -1,6 +1,6 @@
 # JavaScript Scope
 
-![Hero image](./assets/hero-main.png)
+![Hero image](./assets/hero.png)
 
 ## Module overview
 

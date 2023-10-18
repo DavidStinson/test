@@ -1,6 +1,6 @@
 # JavaScript Scope - Level Up - Temporal Dead Zone
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-temporal-dead-zone.png)
 
 As explained in [scope chain lesson](../scope-chain/README.md) and [`var` keyword level up](./var.md), `let` and `const` work differently than `var` in regards to hoisting. If we try to access a `var` variable before declaring or initializing it, the variable will simply come back `undefined`, as the declaration itself has been hoisted (as shown in previous examples). 
 
