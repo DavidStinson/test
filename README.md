@@ -23,7 +23,7 @@ Designed for learners ranging from beginner to advanced, this module takes stude
 | ------ |:----------:|:-----:| ------------------ |
 | [`var` Keyword](/level-up/var.md)|--|--| Understanding the `var` keyword in JavaScript and its function-scoped behavior |
 | [More About Global Scope](/level-up/more-about-global-scope.md) | --|--| The `window` object, risks of pollution, and differences between var, let, and const |
-| [Temporal Dead Zone](/level-up/temporal-dead-zone.md)| --|--| access before initialization, hoisting, and how it impacts variable initialization |
+| [Temporal Dead Zone](/level-up/temporal-dead-zone.md)| --|--| Access before initialization, hoisting, and how it impacts variable initialization |
 |  **Bonus**                  | -- | -- |                                                     |
 
 ## Reference
