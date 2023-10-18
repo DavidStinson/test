@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero-instructor-guide.png)
 
----
+***Nothing here yet!***
 
 🏗️ **Under Construction**
 
