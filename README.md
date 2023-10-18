@@ -17,7 +17,7 @@ Designed for learners ranging from beginner to advanced, this module takes stude
 | [The Scope Chain](./scope-chain/README.md)                       | -- | -- | Understanding the JavaScript scope chain, variable and function resolution across different scopes, and the concept of scope isolation                         |
 |  **Total Module**                                                | -- | -- |                                                         |
 
-## 🚀 Level Up
+## 🚀 Level Up Content
 
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| ------------------ |
