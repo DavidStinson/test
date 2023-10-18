@@ -58,7 +58,7 @@ console.log(foo(a));
 
 Here's a diagram to help visualize how the different scopes in the code above are interacting with one another: 
 
-![Scope example](./assets/scope.png)
+![Scope example](./assets/scope-chain.png)
 
 This diagram identifies three different scopes and the identifiers (variables and functions) that live within each scope.
 

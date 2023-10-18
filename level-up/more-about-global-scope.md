@@ -1,6 +1,6 @@
 # JavaScript Scope - Level Up - More About Global Scope
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-more-about-global-scope.png)
 
 The global scope in our browsers is represented by the `window` object. This means that it is at the top of the scope chain, and its properties are available to every function we write.
 
