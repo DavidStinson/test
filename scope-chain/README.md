@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning Objective**: By the end of this lesson, students will understand the concept of the JavaScript scope chain, how it operates to resolve variable and function references, and the limitations of accessing variables between different levels of scope.
+**Learning Objective**: By the end of this lesson, students will be able to describe how JavaScript's scope chain locates variables and functions, and identify common errors in variable access across different scopes.
 
 ## What is the scope chain?
 

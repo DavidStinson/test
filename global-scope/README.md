@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning Objective**: By the end of this section, students will be able to define what global scope is in JavaScript, explain its characteristics, and identify best practices for using global variables to minimize potential issues.
+**Learning Objective**: By the end of this lesson, students will be able to define what global scope means in JavaScript, list its specific features, and apply guidelines when using global variables to reduce programming errors.
 
 ## Global scope
 
