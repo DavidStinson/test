@@ -1,6 +1,4 @@
-# JavaScript Scope - Level Up - Temporal Dead Zone
-
-![Hero image](./assets/hero-temporal-dead-zone.png)
+# ![JavaScript Scope - Level Up - Temporal Dead Zone](./assets/hero-temporal-dead-zone.png)
 
 As explained previously in this module, `let` and `const` work differently than `var` in regards to hoisting. If we try to access a `var` variable before declaring or initializing it, the variable will simply come back `undefined`, as the declaration itself has been hoisted (as shown in previous examples). 
 

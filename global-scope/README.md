@@ -1,6 +1,4 @@
-# JavaScript Scope - Global Scope
-
-![Hero image](./assets/hero.png)
+# ![JavaScript Scope - Global Scope](./assets/hero.png)
 
 **Learning Objective**: By the end of this lesson, students will be able to define what global scope means in JavaScript, list its specific features, and apply guidelines when using global variables to reduce programming errors.
 

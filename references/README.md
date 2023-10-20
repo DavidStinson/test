@@ -1,6 +1,4 @@
-# JavaScript Scope - References
-
-![Hero image](./assets/hero.png)
+# ![JavaScript Scope - References](./assets/hero.png)
 
 ## Lesson References 
 

@@ -1,6 +1,4 @@
-# JavaScript Scope - Instructor Guide
-
-![Hero image](./assets/hero-instructor-guide.png)
+# ![JavaScript Scope - Instructor Guide](./assets/hero-instructor-guide.png)
 
 ***Nothing here yet!***
 
