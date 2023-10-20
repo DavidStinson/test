@@ -1,6 +1,4 @@
-# JavaScript Scope - Level Up - `var` Keyword
-
-![Hero image](./assets/hero-var.png)
+# ![JavaScript Scope - Level Up - `var` Keyword](./assets/hero-var.png)
 
 In addition to defining variables with `let` and `const`, there is also a *third* way to define variables in JavaScript: by using the `var` keyword.
 

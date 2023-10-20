@@ -1,6 +1,4 @@
-# JavaScript Scope - Concepts
-
-![Hero image](./assets/hero.png)
+# ![JavaScript Scope - Concepts](./assets/hero.png)
 
 **Learning Objective**: By the end of this lesson, students will understand what lexical scope is in JavaScript and be able to explain why it's important for organizing variables, making code easy to read, and using computer memory efficiently. 
 

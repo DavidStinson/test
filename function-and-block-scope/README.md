@@ -1,6 +1,4 @@
-# JavaScript Scope - Function and Block Scope
-
-![Hero image](./assets/hero.png)
+# ![JavaScript Scope - Function and Block Scope](./assets/hero.png)
 
 **Learning Objective**: By the end of this lesson, students will be able to distinguish between function and block scope in JavaScript, identify how variables behave within these scopes, and understand the benefits and limitations of each.
 

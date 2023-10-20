@@ -13,7 +13,7 @@ Designed for learners ranging from beginner to advanced, this module takes stude
 
 ## Content
 
-| Lesson | Video Time | Video | Topics Covered |
+| Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------------------ |
 | [Setup](./setup/README.md)                                       | -- | -- | Lesson setup                                         |
 | [Concepts](./concepts/README.md)                                 | -- | -- | Lexical scope, importance for variable management, and types of scope (Global, Function, Block)              |
@@ -24,7 +24,7 @@ Designed for learners ranging from beginner to advanced, this module takes stude
 
 ## 🚀 Level Up Content
 
-| Lesson | Video Time | Video | Topics Covered |
+| Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------------------ |
 | [`var` Keyword](./level-up/var.md)|--|--| Understanding the `var` keyword in JavaScript and its function-scoped behavior |
 | [More About Global Scope](./level-up/more-about-global-scope.md) | --|--| The `window` object, risks of pollution, and differences between var, let, and const |
