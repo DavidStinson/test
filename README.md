@@ -1,6 +1,4 @@
-# JavaScript Scope
-
-![Hero image](./assets/hero.png)
+# ![JavaScript Scope](./assets/hero.png)
 
 ## About
 
