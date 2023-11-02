@@ -37,7 +37,7 @@ Designed for learners ranging from beginner to advanced, this module takes stude
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
 
-🎥 [Video Guide](./internal-resources/video-guide/README.md)
+🎥 [Video Guide](./internal-resources/video-hub/README.md)
 
 🏗️ [Release Notes](./internal-resources/release-notes.md)
 
