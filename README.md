@@ -13,7 +13,7 @@ Designed for learners ranging from beginner to advanced, this module takes stude
 
 | Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| ------------------ |
-| [Setup](./setup/README.md)                                       | -- | -- | Lesson setup                                         |
+| [Setup](./setup/README.md)                                       | -- | -- | Setting up the development environment                                         |
 | [Concepts](./concepts/README.md)                                 | -- | -- | Lexical scope, importance for variable management, and types of scope (Global, Function, Block)              |
 | [Function and Block Scope](./function-and-block-scope/README.md) | -- | -- | Differences and similarities between function and block scope, variable accessibility and usage                   |
 | [Global Scope](./global-scope/README.md)                         | -- | -- | Definition, characteristics, and best practices for using global variables in JavaScript to avoid unintended side effects                             |
