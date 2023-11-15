@@ -18,7 +18,7 @@ Designed for learners ranging from beginner to advanced, this module takes stude
 | [Function and Block Scope](./function-and-block-scope/README.md) | -- | -- | Differences and similarities between function and block scope, variable accessibility and usage                                        |
 | [Global Scope](./global-scope/README.md)                         | -- | -- | Definition, characteristics, and best practices for using global variables in JavaScript to avoid unintended side effects              |
 | [The Scope Chain](./scope-chain/README.md)                       | -- | -- | Understanding the JavaScript scope chain, variable and function resolution across different scopes, and the concept of scope isolation |
-|  **Total Content**                                               | -- | -- |                                                                                                                                        |
+| **Total Content**                                                | -- | -- |                                                                                                                                        |
 
 ## Level Up content
 
@@ -27,7 +27,7 @@ Designed for learners ranging from beginner to advanced, this module takes stude
 | [`var` Keyword](./level-up/var.md)                               | -- | -- | Understanding the `var` keyword in JavaScript and its function-scoped behavior       |
 | [More About Global Scope](./level-up/more-about-global-scope.md) | -- | -- | The `window` object, risks of pollution, and differences between var, let, and const |
 | [Temporal Dead Zone](./level-up/temporal-dead-zone.md)           | -- | -- | Access before initialization, hoisting, and how it impacts variable initialization   |
-|  **Total Level Up Content**                                      | -- | -- |                                                                                      |
+| **Total Level Up Content**                                       | -- | -- |                                                                                      |
 
 ## Reference
 
