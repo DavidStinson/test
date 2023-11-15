@@ -6,11 +6,11 @@ Open your Terminal application and navigate to your `~/code/ga/lectures` directo
 cd ~/code/ga/lectures
 ```
 
-Make a new directory called `js-scope`, then enter this directory:
+Make a new directory called `javascript-scope`, then enter this directory:
 
 ```bash
-mkdir js-scope
-cd js-scope
+mkdir javascript-scope
+cd javascript-scope
 ```
 Then, create an `app.js` and an `index.html` file. These files will hold your work for this lecture:
 
