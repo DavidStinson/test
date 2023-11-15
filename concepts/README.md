@@ -6,6 +6,8 @@
 
 In general, the concept of [scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope) in programming refers to the variables and functions we can access from a given line of code.
 
+JavaScript scope is *lexical*, meaning that the code's physical structure determines scope.
+
 ![Scope example](./assets/concepts.png)
 
 When a line of code doesn't have access to a variable or function, we can describe that variable or function as being "out of scope".
@@ -23,9 +25,10 @@ Scope is an essential concept because it determines exactly what variables you c
 ## Types of scope in JavaScript
 
 JavaScript has three types of scope:
-  - **Global scope**
-  - **Function scope**
-  - **Block scope**
+
+- **Global scope**
+- **Function scope**
+- **Block scope**
 
 ## Why the different types of scope?
 
@@ -33,7 +36,7 @@ There's a concept in programming known as [the principle of least privilege](htt
 
 > 📚 *Code safety* refers to practices that help to prevent or minimize errors, vulnerabilities, and unexpected behavior in a program, ensuring its stability, security, and reliability.
 
-## Knowledge Checks
+## ❓ Review Questions
 
 - What are the three types of scope in JS?
 - What is the general concept of scope in programming?

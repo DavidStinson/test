@@ -25,14 +25,14 @@ const chooseDinner = () => {
   // Note how variables in the global scope can be modified anywhere!
 
   console.log(`Dinner tonight is ${mainDish}`);
-  // Output: 'Dinner tonight is Meatloaf'
+  // Prints: 'Dinner tonight is Meatloaf'
 }
 
 chooseDinner();
 
 // Because mainDish was declared in the global scope, it is available.
 console.log(mainDish);
-// Output: 'meatloaf'
+// Prints: 'meatloaf'
 ```
 
 ## Global scope as a metaphor
@@ -45,7 +45,7 @@ Now imagine that you go to the children's section. The children's section is a *
 
 For example, if you want to get a book from the non-fiction section, you have to leave the children's section and go to the non-fiction section.
 
-## Knowledge Checks
+## ❓ Review Questions
 
 - True/false: variables declared in global scope are accessible anywhere.
 - Is a variable declared within a function in global scope?

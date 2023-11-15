@@ -62,7 +62,7 @@ This diagram identifies three different scopes and the identifiers (variables an
 
 > ❓ Does the above function `foo` have access to the variable `c`?
 
-## Knowledge Checks
+## ❓ Review Questions
 
 - What happens when JS cannot find a particular variable or function?
 - Can we access variables and functions declared inside a function from outside of that function?

@@ -7,7 +7,7 @@ and it allows us to redeclare variables and declare variables without intializin
 
 This lack of restriction can cause a lot of confusion and unintended behavior in our code, and is one of the reasons we don't use `var` (and you shouldn't either). 
 
-Regardless of whether they are defined within a block, variables declared with  `var` always have function scope. This means they're accessible from anywhere within the function in which they were declared. 
+Regardless of whether they are defined within a block, variables declared with `var` always have function scope. This means they're accessible from anywhere within the function in which they were declared. 
 
 The following code from MDN's [docs about let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let) and [docs about var](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var) demonstrates the differences between `let` and `var`:
 
@@ -15,19 +15,19 @@ The following code from MDN's [docs about let](https://developer.mozilla.org/en-
 function varTest() {
   var x = 1
   if (true) {
-    var x = 2  // same variable!
-    console.log(x)  // 2
+    var x = 2 // same variable!
+    console.log(x) // 2
   }
-  console.log(x)  // 2
+  console.log(x) // 2
 }
 
 function letTest() {
   let x = 1
   if (true) {
-    let x = 2  // different variable
-    console.log(x)  // 2
+    let x = 2 // different variable
+    console.log(x) // 2
   }
-  console.log(x)  // 1
+  console.log(x) // 1
 }
 ```
 
@@ -57,9 +57,9 @@ For example, when we write code like this:
 
 ```js
 function hoist() {
-  console.log(x)  // outputs undefined, not a ReferenceError
+  console.log(x)  // prints: undefined, not a ReferenceError
   var x = 25
-  console.log(x)  // outputs 25
+  console.log(x)  // prints: 25
 }
 ```
 
@@ -68,13 +68,14 @@ Internally, the JS engine actually sees this:
 ```js
 function hoist() {
   var x
-  console.log(x)  // outputs undefined, not a ReferenceError
+  console.log(x) // prints: undefined, not a ReferenceError
   x = 25
-  console.log(x)  // outputs 25
+  console.log(x) // prints: 25
 }
 ```
 
 Here are some things to remember about hoisting:
-  - Only variable declarations are hoisted, not function declarations.
-  - Hoisting moves variable declarations to the top of the scope, but **does not** initialize them. This means variables that are hoisted will have a value of `undefined` until they're initialized.
-  - If you're not careful, hoisting can cause **unexpected behavior**. 
+
+- Only variable declarations are hoisted, not function declarations.
+- Hoisting moves variable declarations to the top of the scope, but **does not** initialize them. This means variables that are hoisted will have a value of `undefined` until they're initialized.
+- If you're not careful, hoisting can cause **unexpected behavior**. 
