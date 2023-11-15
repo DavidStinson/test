@@ -2,7 +2,7 @@
 
 **Learning Objective**: By the end of this lesson, students will be able to distinguish between function and block scope in JavaScript, identify how variables behave within these scopes, and understand the benefits and limitations of each.
 
-## Simularities of function and block scope
+## What are function and block scope?
 
 Function scope and block scope behave similarly, so it makes sense to bundle these types of scope when we're thinking about them. Both function and block scope in JavaScript deal with where you can access a variable. Let's break it down:
 
@@ -10,7 +10,7 @@ Function scope and block scope behave similarly, so it makes sense to bundle the
 
 - **Block scope**: Similarly, if you declare a variable inside a code block such as within an `if` statement or a `for` loop (including any variables defined inside the `( )`), you can only use that variable within that specific block.
 
-In simpler terms, if you put a variable inside curly braces `{ }`, whether it's part of a function or a code block, that variable can only be used within those curly braces. This helps keep your code organized and avoids conflicts between variables.
+In simpler terms, if you declare a variable inside curly braces `{ }`, whether it's part of a function or a code block, that variable can only be used within those curly braces. This helps keep your code organized and avoids conflicts between variables.
 
 Here are a couple of examples of this:
 
@@ -82,14 +82,12 @@ console.log(mainDish);
 // ERROR: ReferenceError: mainDish is not defined
 ```
 
+An important thing to remember is that variables declared outside a code block or function (e.g. `mainDish` is declared outside the `if/else` block in the example above) are accessible from within that code block or function.
+
 A significant benefit of having different scopes is that we can use the same variable names in different functions without causing conflicts or safety concerns. If there were only one scope, this would not be possible.
 
-## Differences between function and block scope
+## Knowledge Checks
 
-In JavaScript, both block and function scope are mechanisms that limit the visibility and accessibility of variables. However, they do so in different contexts.
-
-So, if these two types of scope are similar, why do we refer to them separately?
-
-1) Variables declared with the `var` keyword do not respect block scope. This means that `var` is generally less safe and can complicate scope. Therefore, its usage is frowned upon, so we don't use it in our examples, and neither should you when you write code. If you want to learn more about why you shouldn't use it, check out the [`var` Level Up](../level-up/var.md).
-
-2) Variables in a function's scope only exist while the function executes unless the function creates a closure. Closures are a complex topic not covered here. For more info checkout [MDN Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures).
+- True/False: variables declared within a function are accessible within it.
+- Can you access variables declared outside a function or code block from within the function/code block?
+- If a variable is out of scope, will you receive an error?
