@@ -35,9 +35,3 @@ JavaScript has three types of scope:
 There's a concept in programming known as [the principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege). This principle is based on the idea that limiting the accessibility of variables (and functions) helps reduce bugs in the code - think of it as a form of *code safety*.
 
 > 📚 *Code safety* refers to practices that help to prevent or minimize errors, vulnerabilities, and unexpected behavior in a program, ensuring its stability, security, and reliability.
-
-## ❓ Review Questions
-
-- What are the three types of scope in JS?
-- What is the general concept of scope in programming?
-- What are three reasons scope is important?
